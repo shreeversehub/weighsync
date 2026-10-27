@@ -1,0 +1,26 @@
+# --- SECRETS: never commit ---
+private.pem
+private.pem.txt
+*.pem
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+firebase-*.json
+
+# --- Android / Gradle ---
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# --- OS / misc ---
+.DS_Store
+Thumbs.db
+__pycache__/
